@@ -1,0 +1,19 @@
+{
+  "name": "monorepo_sample",
+  "version": "0.0.1",
+  "main": "index.js",
+  "workspaces": [
+    "@packages/testpackage"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:watch": "npm run build:watch -w @packages/testpackage"
+  },
+  "keywords": [],
+  "author": "tmerse",
+  "license": "UNLICENSED",
+  "description": "",
+  "devDependencies": {
+    "typescript": "^4.9.3"
+  }
+}
